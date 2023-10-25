@@ -1,0 +1,27 @@
+#time{
+	justify-content: center;
+	text-align: center;
+	background-image: url("https://cdn.shopify.com/s/files/1/0575/0987/1774/files/1_6df15c2e-7475-4b2e-839e-3826bc5c02f6.png?v=1653967370");
+    background-size: cover;
+}
+#vid{
+	height: 500px;
+	width: 500px;
+}
+#test{
+	height: 500px;
+	width: 500px;
+}
+#alarm_photo{
+	height: 500px;
+	width: 600px;
+}
+#alarm_info{
+	
+	text-align: center;
+	border: solid;
+	width: 40rem;
+	position: relative;
+	left: 29%;
+    border-radius: 10px;
+}

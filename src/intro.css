@@ -1,0 +1,43 @@
+.header-container{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+
+
+}
+.text-section{
+	    flex: 1;
+}
+.profile-picture{
+	border: 10px solid gray;
+	width: 430px;  
+    height: 430px;
+    border-radius: 50%;  
+    object-fit: cover; 
+    border-color: white;
+}
+#skills{
+
+
+}
+#shop{
+   height:  600px;
+   width: 100%;
+}
+.background-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 90%;
+    width: auto;
+    height: 90%;
+    z-index: -1; /* Place it behind your content */
+    transform: translate(-50%, -50%); /* Center the video */
+    object-fit: cover; 
+}
+#js{
+ 
+     object-fit: cover; 
+}
