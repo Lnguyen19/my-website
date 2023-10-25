@@ -3,10 +3,11 @@ import "./arduino_alarm.css";
 import timer from "./timer.mp4";
 import alarm from "./alarm.jpg"
 import arduino_test from "./arduino_test.mp4";
+import Return from "./return";
 const Arduino_alarm = ()=>{
 return(<>
-	<NavBar/>
-
+	
+<Return/>
 <div id = "time" class = "container-fluid">
 <h2 style = {{fontWeight:"bold"}}> Arduino Alarm</h2>
 <img  id = "alarm_photo"src = {alarm}/>

@@ -208,3 +208,22 @@ width: 800px;
 #profile_pic{
 
 }
+
+#project_tittle {
+    font-weight: bold;
+    animation: bounce 1s infinite;
+     justify-content: center;
+  text-align: center;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}

@@ -7,7 +7,7 @@ const Projects = ()=>{
 const navigate = useNavigate();
 return(<>
 <div id='skills'>
-<h2 style = {{fontWeight:'bold'}}>  Projects </h2>
+<h2  id = "project_tittle"style = {{fontWeight:'bold'}}>  Projects </h2>
  <div class="main">
   <ul class="cards">
     <li class="cards_item">

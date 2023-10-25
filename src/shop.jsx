@@ -1,10 +1,11 @@
 import NavBar from "./navBar";
 import "./shop.css";
 import boat from "./boat_section.JPG";
+import Return from "./return";
 const Shop = ()=>{
   const videoId = 'qZBfK8SsobE'; 
 return(<>
-<NavBar/>
+<Return/>
 
 <div id = "shopping">
 <h2>Shop</h2>
