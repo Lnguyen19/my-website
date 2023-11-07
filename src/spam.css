@@ -1,0 +1,25 @@
+#spam{
+	justify-content: center;
+	text-align: center;
+	background-image: url("https://cdn.shopify.com/s/files/1/0575/0987/1774/files/1_6df15c2e-7475-4b2e-839e-3826bc5c02f6.png?v=1653967370");
+    background-size: cover;
+}
+#spam_info{
+	text-align: center;
+	border: solid;
+	width: 49rem;
+	position: relative;
+	left: 25%;
+    border-radius: 10px;
+}
+#spam_{
+		height: 300px;
+	width: 40rem
+}
+#spam_demo{
+    justify-content: center;
+	text-align: center;
+
+
+
+}

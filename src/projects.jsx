@@ -1,13 +1,16 @@
-import shop from "./e-com.JPG"
-import alarm from "./alarm.jpg"
-import "./projects.css"
-import social from"./social.JPG"
+import shop from "./e-com.JPG";
+import alarm from "./alarm.jpg";
+import "./projects.css";
+import social from"./social.JPG";
+import all_pic from "./all.JPG";
+import spam from "./spam.JPG";
+import camera from "./camera.JPG";
 import { useNavigate } from 'react-router-dom';
 const Projects = ()=>{
 const navigate = useNavigate();
 return(<>
 <div id='skills'>
-<h2  id = "project_tittle"style = {{fontWeight:'bold'}}>  Projects </h2>
+<h2 style = {{fontWeight:'bold'} }id = "project_tittle">  Projects </h2>
  <div class="main">
   <ul class="cards">
     <li class="cards_item">
@@ -56,6 +59,64 @@ return(<>
             <br/>
            <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/alarm')}>View Demo</button>   <button class = "btn-sm" > <a href= "https://github.com/Lnguyen19/arduino_cloud_alarm">Source Code </a> </button></div>
             <p> Smart Alarm Clock seamlessly blending Arduino precision with the convenience of cloud computing. Witness time management redefined as this unique project not only displays real-time on a sleek LCD screen but also allows you to set alarms remotely via the Arduino Cloud.</p>
+           
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<br/>
+<br/>
+<h2 id = "project_tittle"> <i class="bi bi-robot"></i>AI & Computer Vision Projects</h2>
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div id = "j"class="card" tabindex="0">
+        <div class="card_image"><img src={all_pic} alt="an online shop . "/></div>
+        <div class="card_content">
+          
+          <div class="card_text">
+          <span class="note">Avatar Generator</span>
+                <br/>
+           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/avatar')}>View More</button>   <button class = "btn-sm"> <a href = "https://github.com/Lnguyen19/Avatar_generator">Source Code </a> </button></div>
+            <p>
+This project involves building a Generative Adversarial Network (GAN) using the Keras library for deep learning. The GAN consists of a generator and a discriminator. The generator creates synthetic images from random noise, while the discriminator aims to distinguish between real and generated images</p>
+            <p>The code includes the implementation of both the generator and discriminator models. The training process involves updating the discriminator and generator iteratively.</p>
+            
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div id = "j"class="card" tabindex="0">
+        <div class="card_image profile_pic"><img  id = "profile_pic"src={spam} alt="a social media website"/></div>
+        <div class="card_content">
+       
+          <div class="card_text">
+          <span class="note">SMS Spam Detection</span>
+   <br/>
+           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/spam')}>View More</button>   <button class = "btn-sm"> <a href = "https://github.com/Lnguyen19/spam_detections">Source Code</a> </button></div>
+            <p>Developed a spam detection system using Keras and TensorFlow, employing a recurrent neural network (RNN) architecture. Trained on SMS data, the model accurately classifies messages as spam or non-spam. The program features a user-friendly prediction function for efficient evaluation, showcasing expertise in natural language processing and deep learning techniques.
+   </p>
+            
+             
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div id = "j" class="card" tabindex="0">
+        <div class="card_image"><img src={camera} alt="an alarm"/></div>
+        <div class="card_content">
+         
+          <div class="card_text">
+            <span class="note">Traffic Camera</span>
+            <br/>
+           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/camera')}>View Demo</button>   <button class = "btn-sm" > <a href= "https://github.com/Lnguyen19/traffic_camera">Source Code </a> </button></div>
+            <p> Executed a project using Python and OpenCV for object detection and analysis in pre-recorded video footage. Implemented background subtraction and contour detection techniques to identify and track objects within the video. Demonstrated adept skills in computer vision, image processing, and algorithm implementation. This project highlights practical experience in video analysis, contributing to a solid foundation for software development roles.
+</p>
            
           </div>
         </div>
