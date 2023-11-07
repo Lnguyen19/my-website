@@ -19,7 +19,9 @@ to choose from , Cars , Boats and Bikes. The user can click on the view button i
 In addition the user can click on "buy" in order to purchase. Similar to most online shopping websites, the user can then navigate to the cart 
 section in order to confirm or remove their orders.
 </p>
+
 </div>
+<h2 id = "demo">Video Demo</h2>
 <div id = "vid_demo">
     <iframe
         width="640"
