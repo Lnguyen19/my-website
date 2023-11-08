@@ -114,8 +114,8 @@ This project involves building a Generative Adversarial Network (GAN) using the 
           <div class="card_text">
             <span class="note">Traffic Camera</span>
             <br/>
-           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/camera')}>View Demo</button>   <button class = "btn-sm" > <a href= "https://github.com/Lnguyen19/traffic_camera">Source Code </a> </button></div>
-            <p> Executed a project using Python and OpenCV for object detection and analysis in pre-recorded video footage. Implemented background subtraction and contour detection techniques to identify and track objects within the video. Demonstrated adept skills in computer vision, image processing, and algorithm implementation. This project highlights practical experience in video analysis, contributing to a solid foundation for software development roles.
+           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/camera')}>View Demo</button>   <button class = "btn-sm" > <a href= "https://github.com/Lnguyen19/Traffic_Camera">Source Code </a> </button></div>
+            <p> This Python project utilizes the OpenCV library to implement a real-time object detection system for traffic monitoring using YOLOv4-tiny, a popular deep learning-based object detection algorithm. The system analyzes a video (specified by the "video_path" variable) and identifies objects within each frame, focusing specifically on cars. It will update the traffic condition based on the amount of cars detected.
 </p>
            
           </div>
