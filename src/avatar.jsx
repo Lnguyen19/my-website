@@ -1,12 +1,12 @@
 import all_pic from "./all.JPG";
 import "./avatar.css"
 import trained_60 from './trained-60.png';
-import trained_32 from "./trained-32.png";
-import trained_53 from "./trained-53.png";
-import trained_49 from "./trained-49.png";
-import trained_29 from "./trained-29.png";
-import trained_54 from "./trained-54.png";
-import trained_21 from "./trained-21.png";
+import trained_109 from"./trained-109.png";
+import trained_62 from "./trained-62.png";
+import trained_65 from "./trained-65.png";
+import trained_66 from "./trained-66.png";
+import trained_30 from "./trained-30.png";
+import trained_72 from "./trained-72.png";
 import Return from "./return";
 const Avatar = ()=>{
 
@@ -29,16 +29,16 @@ return(<>
    <h2 style = {{fontWeight:"bold"}}>My favorite outputs</h2>
    <img  src = {trained_60}/>
    
-   <img  src = {trained_32}/>
+   <img  src = {trained_109}/>
    
-   <img  src = {trained_53}/>
+   <img  src = {trained_62}/>
    
-   <img  src = {trained_49}/>
+   <img  src = {trained_65}/>
    <br/>
-   <img  src = {trained_29}/>
+   <img  src = {trained_66}/>
   
-   <img  src = {trained_54}/>
-   <img  src = {trained_21}/>
+   <img  src = {trained_30}/>
+   <img  src = {trained_72}/>
    <br/>
 
 </div>
