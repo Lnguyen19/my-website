@@ -1,15 +1,30 @@
-#bio{
-	height: 750px;
-	width: 800px;
+#bio {
+    height: 750px;
+    width: 800px;
 }
-#story{
-	font-size: 1.4rem;
 
+#story {
+    font-size: 1.4rem;
 }
-#me_{
-height: 600px;
-width: 500px;
-position: relative;
-left: 900px;
-bottom: 670px;
+
+#me_ {
+    height: 600px;
+    width: 500px;
+    position: relative;
+    left: 900px;
+    bottom: 670px;
+}
+
+@media screen and (max-width: 768px) {
+    #bio {
+        height: auto;
+        width: 100%;
+    }
+
+    #me_ {
+        width: 100%;
+        left: auto;
+        bottom: auto;
+        position: static;
+    }
 }

@@ -1,20 +1,22 @@
-#entry, #section {
+#section,
+#entry {
     text-align: center;
-    margin-bottom: 20px; /* Add margin between headings and cards */
+    margin-bottom: 20px;
 }
 
 .card_ {
-    width: 150px; /* Set a fixed width for better consistency */
-    margin: 10px; /* Add margin between cards */
-      transition: transform 0.5s;
+    width: 150px;
+    margin: 10px;
+    transition: transform 0.5s;
 }
+
 .card_:hover {
     transform: rotateY(180deg);
 }
 
 .card-text {
     font-weight: bold;
-    margin-top: 10px; /* Add margin to separate text from image */
+    margin-top: 10px;
 }
 
 #skill {
@@ -25,31 +27,7 @@
     border-radius: 50%;
 }
 
-/* Additional styling for responsiveness */
 @media (max-width: 768px) {
-    #entry, #section {
-        left: auto;
-    }
-}
-
-#entry {
-    font-weight: bold;
-    animation: bounce 1s infinite;
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-20px);
-    }
-    60% {
-        transform: translateY(-10px);
-    }
-}
-
-@media (max-width: 576px) {
     .card_ {
         width: 100%;
     }
