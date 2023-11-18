@@ -21,7 +21,7 @@ return(<>
           <div class="card_text">
           <span class="note">E-Commerece Website.</span>
                 <br/>
-           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/shop')}>View Demo</button>   <button class = "btn-sm"> <a href = "https://serene-parfait-ccbefc.netlify.app">Live website </a> </button></div>
+           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/shop')}>View Demo</button>   <button class = "btn-sm"> <a href = "https://all-terrain-shop.netlify.app">Live website </a> </button></div>
             <p>A full-stacked Online shopping website. The shop allows the user to sign up for an account and browse through a variety of items</p>
             <p>The user can then add an item to cart, or if the user changed their mind then they can remove the item from cart. The total amount is going to be displayed in the cart section.  </p>
             
@@ -38,7 +38,7 @@ return(<>
           <div class="card_text">
           <span class="note">Connect-Sphere.</span>
    <br/>
-           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/media')}>View Demo</button>   <button class = "btn-sm"> <a href = "https://resilient-raindrop-9b5b5c.netlify.app">Live website</a> </button></div>
+           <div class= " buttons"> <button class = "btn-sm" onClick = {()=>navigate('/media')}>View Demo</button>   <button class = "btn-sm"> <a href = "https://connectsphere.netlify.app">Live website</a> </button></div>
             <p>Connect with your friends today with this full-stacked social media website!. Connect-Sphere allows you to post about your thoughts and moments in your daily lives. In addition, every user has their own customizable profile!
             </p>
             <p>Additionally, your friends can also react to your posts by using the like and comment features. You can also follow a user in order to connect with them. </p>
